@@ -1,0 +1,18 @@
+#Bert Base Model 
+vocab_size : 30000 #The First token of every sequence is 
+#[CLS] token here he final hidden state
+# corresponding to this token is used as the ag-
+# gregate sequence representation for classification
+# tasks.
+#Different Scentence is seperated by [SEP] token here
+hidden_size: 768
+max_position_embeddings: 512
+num_attention_heads: 12
+num_hidden_layers: 12
+intermediate_size: 3072
+no_of_seq: 2
+hidden_act: gelu
+hidden_dropout_prob: 0.1
+attention_probs_dropout_prob: 0.1
+layer_norm_eps: 1.0e-12
+
